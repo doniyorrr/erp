@@ -1,0 +1,31 @@
+.side-menu.inactive {
+    width: 80px;
+}
+.side-menu.inactive .toggle-menu-btn{
+    right: -60px;
+}
+.side-menu.inactive .main-menu .menu-item span{
+    /* opacity: 0; */
+    display: none;
+}
+.side-menu.inactive .side-menu-footer .user-info{
+    display: none;
+}
+
+.side-menu.inactive .logo img{
+    display: none;
+}
+
+.side-menu .main-menu .sub-menu.active{
+    display: block;
+}
+.section{
+    margin-left: 300px;
+    transition: margin-left .2s ease-in;
+    padding: 50px;
+}
+.section.inactive{
+    margin-left: 80px;
+    transition: margin-left .2s ease-in;
+
+}
